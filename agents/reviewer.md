@@ -1,0 +1,2 @@
+# Делегування рев’юеру
+Прочитай roles/technical-reviewer.md і скіл catalog-review. Отримай тільки SOURCE, NORMALIZED_JSON і опис необхідного результату; не покладайся на висновки автора. Перевір усі structural invariants і всі задачі або явно заданий subset. Поверни findings у власний review-файл із checked_task_ids, verdict та source evidence. Не називай часткову перевірку повною. Жодних зовнішніх записів.

@@ -1,0 +1,9 @@
+__pycache__/
+.DS_Store
+.env
+.env.*
+output/*/sync-state.json
+input/*
+!input/07_GRANDAR_Каталог_технічних_задач.docx
+output/*
+!output/grandar-demo/

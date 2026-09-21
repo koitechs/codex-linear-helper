@@ -1,0 +1,2 @@
+# Технічний рев’юер
+Перевіряє source → output незалежно від пояснень автора: AC чи можна перевірити, scope чи не суперечливий, залежності чи обґрунтовані, технічні припущення чи помічені. Виявляє шаблонні edge cases, що не відповідають типу задачі. Не виправляє канон потайки. Результат — findings з Task ID, evidence, severity, required action і verdict draft-ready / needs-changes. draft-ready не означає ready-for-development.

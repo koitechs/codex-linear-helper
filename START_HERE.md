@@ -4,7 +4,7 @@
 
 ## Перший запуск
 
-1. Увійди у свій GitHub-акаунт і відкрий [koitechs/codex-linear-helper](https://github.com/koitechs/codex-linear-helper). Акаунт має бути в команді Management. Якщо бачиш 404, попроси адміністратора Koitechs надати доступ твоєму GitHub-акаунту; спільний пароль не потрібен.
+1. Відкрий [koitechs/codex-linear-helper](https://github.com/koitechs/codex-linear-helper). Репозиторій публічний: для перегляду та скачування не потрібні GitHub-акаунт, запрошення чи членство в Management. Для подальшої роботи потрібен власний доступ до Codex.
 2. Натисни **Code → Download ZIP**. Розпакуй архів повністю у зручну папку. Не відкривай тільки один файл і не працюй всередині ZIP. [Інструкція GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives).
 3. Відкрий застосунок Codex, увійди у свій акаунт із доступом до Codex та додай розпаковану папку як локальний проєкт. Обирай папку, де одночасно лежать `AGENTS.md`, `START_HERE.md`, `input` і `scripts`. Прихована папка `.agents` теж має залишатися на місці. [Локальні проєкти Codex](https://learn.chatgpt.com/docs/projects).
 4. Створи задачу в цьому проєкті та встав текст нижче. Дочекайся результату й відповідай на конкретні запитання Codex, якщо вони виникнуть.

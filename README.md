@@ -43,6 +43,8 @@ python3 -m unittest discover -s tests
 
 ## Linear
 
-Цей приклад готує локальні постановки. Живий connector не підключений і жодної задачі не створено. Для перенесення вкажи workspace/team/project і явно попроси створити задачі; агент використає доступний Linear connector за контрактом `docs/linear-handoff.md`. Якщо доступу немає, він поверне підготовлений пакет без заяв про успішну публікацію.
+Helper готує локальні постановки та підтримує read-only reconciliation з наявним проєктом через доступний агенту Linear connector. `scripts/linear_snapshot.cjs` читає всі сторінки issues і повні картки зі зв’язками; `scripts/reconcile.cjs` порівнює з готовим `issues.json` та зберігає missing/unchanged/changed/conflict і конкретні відмінності. Native estimate залишається unmapped без явного зіставлення з годинами. Попередні результати не перезаписуються. Інструкції й обмеження: [read-only reconciliation](docs/read-only-reconciliation.md).
+
+Create/update/publish у коді не реалізовано. Контракт майбутньої передачі описано в `docs/linear-handoff.md`; read-only звіт не є дозволом на запис. Якщо connector недоступний, помилка доступу фіксується, а неповне читання не видається за відсутність задач.
 
 Скіли розміщено за [офіційним форматом repository skills](https://learn.chatgpt.com/docs/build-skills). Глобальні налаштування Codex не змінюються.
